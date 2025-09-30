@@ -14,7 +14,14 @@ This project implements a sophisticated **semantic book recommendation system** 
 
 
 ---
+## 📚 Data Source
 
+The book recommender is trained and built upon a rich corpus of textual data:
+
+* **Dataset:** **7k Books**
+* **Source:** **Kaggle** (Link: *https://www.kaggle.com/datasets/dylanjcastillo/7k-books-with-metadata*)
+* **Content:** The dataset provides close to seven thousand books containing identifiers, title, subtitle, authors, categories, thumbnail url, description, published year, average rating, and number of ratings. The dataset is provided as comma-delimited CSV.
+---
 ## ⚙️ Tech Stack
 
 ### 📦 Core Libraries
