@@ -11,7 +11,7 @@ This project implements a sophisticated **semantic book recommendation system** 
 * **Zero-Shot Categorization** – Automatically classify book content into customizable genres or topics **without task-specific training data**.
 * **Emotion Detection** – Analyze text for emotional tone, enriching recommendation personalization and offering a novel signal for filtering.
 * **Interactive UI (Gradio)** – A user-friendly, web-based interface for easy interaction and demonstration of the recommender's capabilities.
-* **Colab-Optimized** – Built and tested for efficient experimentation within Google Colab environments (e.g., T4 GPU).
+
 
 ---
 
@@ -49,7 +49,7 @@ To set up and run the Semantic Book Recommender locally, follow these steps:
 2.  **Run the application:**
     Execute the main script (which initializes the vector store and launches the Gradio UI).
     ```bash
-    python gradio-dashboard.py # (Assuming your main script is named run_app.py)
+    python gradio-dashboard.py 
     ```
 
 ---
@@ -65,3 +65,7 @@ The recommendation system follows a structured pipeline from data ingestion to e
 5.  **Semantic Search** – User queries are embedded and compared against stored vectors to efficiently retrieve the most relevant book passages.
 6.  **Categorization & Emotion Analysis** – The retrieved book context is further analyzed using the zero-shot and emotion models to provide **enhanced recommendations** with genre labels and emotional signals.
 7.  **UI Display** – Results are presented through the **Gradio** web interface.
+
+
+
+**Note:** **All initial data preprocessing (Chunking and Embedding Generation) was performed on Google Colab leveraging the high-performance NVIDIA T4 GPU.**
